@@ -1,0 +1,315 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>NourishAI Public Demo</title>
+    <meta
+      name="description"
+      content="Public product demo for NourishAI. Screenshots and feature walkthroughs only. No private source code or backend systems are exposed."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,600&family=Space+Grotesk:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero" id="top">
+      <nav class="top-nav">
+        <a href="#overview">Overview</a>
+        <a href="#walkthrough">Walkthrough</a>
+        <a href="#themes">Themes</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#scope">Public Scope</a>
+      </nav>
+
+      <div class="hero-card">
+        <p class="eyebrow">NourishAI</p>
+        <h1>Public Product Demo</h1>
+        <p class="lead">
+          Nutrition and fitness planning in one iOS experience. This page is intentionally limited to
+          release-safe screenshots and product-level descriptions.
+        </p>
+        <div class="hero-chips">
+          <span>Daily Dash</span>
+          <span>Meal Hub</span>
+          <span>Fitness Hub</span>
+          <span>Profile + Routine</span>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="section" id="overview">
+        <h2>What The App Covers</h2>
+        <div class="card-grid">
+          <article class="card">
+            <h3>Daily Dash</h3>
+            <p>Track daily nutrition progress and log completion events across meals and fitness.</p>
+          </article>
+          <article class="card">
+            <h3>Meal Hub</h3>
+            <p>Plan meals, adjust ingredient choices, and prepare grocery-ready outputs.</p>
+          </article>
+          <article class="card">
+            <h3>Fitness Hub</h3>
+            <p>Review and execute workout plans with progress states from start to completion.</p>
+          </article>
+          <article class="card">
+            <h3>Profile + Settings</h3>
+            <p>Manage goals, routine preferences, and app behavior from a consolidated profile flow.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="walkthrough">
+        <h2>Aurora Walkthrough</h2>
+        <p class="section-note">Representative flow from home dashboard to meal and fitness actions.</p>
+        <div class="timeline">
+          <figure>
+            <img
+              src="aurora/01_daily_dash_home.png"
+              class="crop-top"
+              alt="Daily Dash home screen"
+              loading="lazy"
+            />
+            <figcaption>1. Daily Dash home</figcaption>
+          </figure>
+          <figure>
+            <img
+              src="aurora/06_meal_planner.png"
+              class="crop-top"
+              alt="Meal planner summary view"
+              loading="lazy"
+            />
+            <figcaption>2. Meal Hub summary</figcaption>
+          </figure>
+          <figure>
+            <img src="aurora/03_profile_top.png" alt="Profile overview" loading="lazy" />
+            <figcaption>3. Profile overview</figcaption>
+          </figure>
+          <figure>
+            <img src="aurora/05_settings.png" alt="Settings and controls" loading="lazy" />
+            <figcaption>4. Settings</figcaption>
+          </figure>
+          <figure>
+            <img src="aurora/09_fitness_hub.png" alt="Fitness hub view" loading="lazy" />
+            <figcaption>5. Fitness hub</figcaption>
+          </figure>
+          <figure>
+            <img
+              src="aurora/13_dash_after_consume.png"
+              class="crop-top"
+              alt="Daily Dash after consumption"
+              loading="lazy"
+            />
+            <figcaption>6. Daily Dash after consume</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="section" id="themes">
+        <h2>Theme Showcase</h2>
+        <p class="section-note">Same core screens across Aurora, Matcha, Ocean, and TUI themes.</p>
+        <div class="theme-showcase">
+          <article class="theme-panel theme-aurora">
+            <header class="theme-heading">
+              <h3>Aurora</h3>
+              <span>Default neon blend</span>
+            </header>
+            <div class="theme-strip">
+              <figure>
+                <img src="aurora/01_daily_dash_home.png" alt="Aurora Daily Dash" loading="lazy" />
+                <figcaption>Daily Dash</figcaption>
+              </figure>
+              <figure>
+                <img src="aurora/06_meal_planner.png" alt="Aurora Meal Hub" loading="lazy" />
+                <figcaption>Meal Hub</figcaption>
+              </figure>
+              <figure>
+                <img src="aurora/09_fitness_hub.png" alt="Aurora Fitness Hub" loading="lazy" />
+                <figcaption>Fitness Hub</figcaption>
+              </figure>
+            </div>
+          </article>
+
+          <article class="theme-panel theme-matcha">
+            <header class="theme-heading">
+              <h3>Matcha</h3>
+              <span>Soft botanical system</span>
+            </header>
+            <div class="theme-strip">
+              <figure>
+                <img src="themes/matcha_daily_dash.png" alt="Matcha Daily Dash" loading="lazy" />
+                <figcaption>Daily Dash</figcaption>
+              </figure>
+              <figure>
+                <img src="themes/matcha_meal_hub.png" alt="Matcha Meal Hub" loading="lazy" />
+                <figcaption>Meal Hub</figcaption>
+              </figure>
+              <figure>
+                <img src="themes/matcha_fitness_hub.png" alt="Matcha Fitness Hub" loading="lazy" />
+                <figcaption>Fitness Hub</figcaption>
+              </figure>
+            </div>
+          </article>
+
+          <article class="theme-panel theme-ocean">
+            <header class="theme-heading">
+              <h3>Ocean</h3>
+              <span>Cyan and navy contrast</span>
+            </header>
+            <div class="theme-strip">
+              <figure>
+                <img src="themes/ocean_daily_dash.png" alt="Ocean Daily Dash" loading="lazy" />
+                <figcaption>Daily Dash</figcaption>
+              </figure>
+              <figure>
+                <img src="themes/ocean_meal_hub.png" alt="Ocean Meal Hub" loading="lazy" />
+                <figcaption>Meal Hub</figcaption>
+              </figure>
+              <figure>
+                <img src="themes/ocean_fitness_hub.png" alt="Ocean Fitness Hub" loading="lazy" />
+                <figcaption>Fitness Hub</figcaption>
+              </figure>
+            </div>
+          </article>
+
+          <article class="theme-panel theme-tui">
+            <header class="theme-heading">
+              <h3>TUI</h3>
+              <span>Terminal-inspired palette</span>
+            </header>
+            <div class="theme-strip">
+              <figure>
+                <img src="themes/tui_daily_dash.png" alt="TUI Daily Dash" loading="lazy" />
+                <figcaption>Daily Dash</figcaption>
+              </figure>
+              <figure>
+                <img src="themes/tui_meal_hub.png" alt="TUI Meal Hub" loading="lazy" />
+                <figcaption>Meal Hub</figcaption>
+              </figure>
+              <figure>
+                <img src="themes/tui_fitness_hub.png" alt="TUI Fitness Hub" loading="lazy" />
+                <figcaption>Fitness Hub</figcaption>
+              </figure>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="gallery">
+        <h2>Curated Gallery</h2>
+        <p class="section-note">Only release-quality captures with clean readability and stable visual states.</p>
+        <div class="gallery-grid">
+          <figure>
+            <img
+              src="aurora/11_daily_dash_end.png"
+              class="crop-top"
+              alt="Daily Dash with end-day controls"
+              loading="lazy"
+            />
+            <figcaption>Daily Dash end state</figcaption>
+          </figure>
+          <figure>
+            <img
+              src="aurora/12_dash_before_consume.png"
+              class="crop-top"
+              alt="Daily Dash before consume action"
+              loading="lazy"
+            />
+            <figcaption>Before consume</figcaption>
+          </figure>
+          <figure>
+            <img
+              src="aurora/13_dash_after_consume.png"
+              class="crop-top"
+              alt="Daily Dash after consume action"
+              loading="lazy"
+            />
+            <figcaption>After consume</figcaption>
+          </figure>
+          <figure>
+            <img
+              src="aurora/14_dash_after_adjust.png"
+              class="crop-top"
+              alt="Daily Dash after adjustment"
+              loading="lazy"
+            />
+            <figcaption>After adjust</figcaption>
+          </figure>
+          <figure>
+            <img
+              src="aurora/15_dash_after_undo.png"
+              class="crop-top"
+              alt="Daily Dash after undo action"
+              loading="lazy"
+            />
+            <figcaption>After undo</figcaption>
+          </figure>
+          <figure>
+            <img
+              src="aurora/06_meal_planner.png"
+              class="crop-top"
+              alt="Meal Hub planner summary panel"
+              loading="lazy"
+            />
+            <figcaption>Meal Hub planner summary</figcaption>
+          </figure>
+          <figure>
+            <img src="aurora/09_fitness_hub.png" alt="Fitness hub overview" loading="lazy" />
+            <figcaption>Fitness overview</figcaption>
+          </figure>
+          <figure>
+            <img
+              src="aurora/16_dash_fitness_before_consume.png"
+              class="crop-top"
+              alt="Fitness metric before consume"
+              loading="lazy"
+            />
+            <figcaption>Fitness metric before consume</figcaption>
+          </figure>
+          <figure>
+            <img
+              src="aurora/17_dash_fitness_after_consume.png"
+              class="crop-top"
+              alt="Fitness metric after consume"
+              loading="lazy"
+            />
+            <figcaption>Fitness metric after consume</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="section" id="scope">
+        <h2>Public Release Scope</h2>
+        <div class="scope-grid">
+          <article>
+            <h3>Included</h3>
+            <ul>
+              <li>Product screenshots captured from seeded demo flows</li>
+              <li>Feature-level descriptions suitable for external audiences</li>
+              <li>No-code static assets for GitHub Pages hosting</li>
+            </ul>
+          </article>
+          <article>
+            <h3>Intentionally Excluded</h3>
+            <ul>
+              <li>Source code, backend implementation, and prompts</li>
+              <li>Cloud credentials, service configs, and internal endpoints</li>
+              <li>Private analytics, tester records, and operational runbooks</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>Public demo package updated: February 21, 2026</p>
+      <p><a href="#top">Back to top</a></p>
+    </footer>
+  </body>
+</html>
