@@ -150,8 +150,8 @@ h1 {
 
 .timeline img,
 .gallery-grid img {
-  height: clamp(260px, 38vw, 390px);
-  object-fit: cover;
+  height: auto;
+  object-fit: contain;
   object-position: center top;
 }
 
@@ -206,8 +206,8 @@ h1 {
 }
 
 .theme-strip img {
-  height: clamp(230px, 32vw, 340px);
-  object-fit: cover;
+  height: auto;
+  object-fit: contain;
   object-position: center top;
 }
 
@@ -271,8 +271,8 @@ img {
 }
 
 img.crop-top {
-  height: clamp(260px, 38vw, 390px);
-  object-fit: cover;
+  height: auto;
+  object-fit: contain;
   object-position: center top;
 }
 
