@@ -6,127 +6,227 @@
     <title>NourishAI Public Demo</title>
     <meta
       name="description"
-      content="Public product demo for NourishAI. Screenshots and feature walkthroughs only. No private source code or backend systems are exposed."
+      content="Recorded public product walkthrough for NourishAI, including meal planning, daily guidance, fitness tracking, and release-safe screenshots from the iOS build."
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,600&family=Space+Grotesk:wght@400;500;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <header class="hero" id="top">
-      <nav class="top-nav">
-        <a href="#overview">Overview</a>
-        <a href="#core">Core Demo</a>
-        <a href="#depth">Depth</a>
-        <a href="#themes">Theme Lab</a>
-        <a href="#scope">Scope</a>
-      </nav>
+    <header class="site-header" id="top">
+      <div class="shell">
+        <nav class="top-nav" aria-label="Section navigation">
+          <a href="#overview">Overview</a>
+          <a href="#walkthrough">Walkthrough</a>
+          <a href="#screens">Screens</a>
+          <a href="#variants">Variants</a>
+          <a href="#scope">Scope</a>
+        </nav>
 
-      <div class="hero-card">
-        <p class="eyebrow">NourishAI</p>
-        <h1>Compact Public Demo</h1>
-        <p class="lead">
-          Full simulator screenshots, condensed layout, and release-safe product proof across nutrition,
-          fitness, and personalization.
-        </p>
-        <div class="hero-chips">
-          <span>Daily Dash</span>
-          <span>Meal Hub</span>
-          <span>Fitness Hub</span>
-          <span>Profile + Settings</span>
-          <span>Aurora + Matcha + Ocean + TUI</span>
-        </div>
+        <section class="hero">
+          <div class="hero-copy">
+            <p class="eyebrow">NourishAI / Public Demo</p>
+            <h1>Recorded walkthrough and product screens for the iOS meal-planning app.</h1>
+            <p class="lead">
+              This page shows NourishAI through a recorded Aurora walkthrough, selected iOS screens, and a
+              quick comparison of the alternate visual themes used in the app.
+            </p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#walkthrough">Watch walkthrough</a>
+              <a class="button button-secondary" href="#screens">Review screens</a>
+            </div>
+          </div>
+
+          <aside class="hero-panel" aria-label="Demo facts">
+            <div class="hero-stat">
+              <span class="hero-label">Format</span>
+              <strong>Recorded iOS walkthrough</strong>
+            </div>
+            <div class="hero-stat">
+              <span class="hero-label">Coverage</span>
+              <strong>Daily Dash, Meal Hub, Fitness Hub, Profile</strong>
+            </div>
+            <div class="hero-stat">
+              <span class="hero-label">Variants</span>
+              <strong>Aurora, Matcha, Ocean, and TUI</strong>
+            </div>
+            <div class="hero-stat">
+              <span class="hero-label">Exposure</span>
+              <strong>Static media only, no private backend or source</strong>
+            </div>
+          </aside>
+        </section>
       </div>
     </header>
 
-    <main>
+    <main class="shell">
       <section class="section" id="overview">
-        <h2>What Is Live Right Now</h2>
+        <div class="section-heading">
+          <p class="kicker">Overview</p>
+          <h2>What this page shows</h2>
+          <p>
+            The goal is simple: show the app clearly, show state changing on screen, and keep the public
+            boundary obvious.
+          </p>
+        </div>
+
         <div class="overview-grid">
-          <article class="info-card">
-            <h3>Live Surface Area</h3>
-            <ul>
-              <li>Daily Dash schedule + progress rings + action feedback</li>
-              <li>Meal Hub planner, grocery, and prep sequence</li>
-              <li>Fitness Hub focus, plan, and logged outcome states</li>
-              <li>Profile and settings controls for generation + routine setup</li>
+          <article class="card">
+            <h3>Core product surfaces</h3>
+            <ul class="bullet-list">
+              <li>Daily Dash scheduling, nutrient rings, and progress feedback</li>
+              <li>Meal Hub planning, grocery, and prep flows</li>
+              <li>Fitness Hub focus, execution, and logged outcome states</li>
+              <li>Profile and settings controls that shape generation behavior</li>
             </ul>
           </article>
-          <article class="info-card">
-            <h3>Visible Soon Markers</h3>
-            <ul>
-              <li>Family Sync labeled coming soon in profile</li>
-              <li>Some profile sub-areas marked soon placeholders</li>
-              <li>Specific logging surfaces marked soon in dashboard</li>
+
+          <article class="card">
+            <h3>What is included</h3>
+            <ul class="bullet-list">
+              <li>Recorded Aurora walkthrough using a seeded public-safe account</li>
+              <li>Curated screenshots from the same product surface area</li>
+              <li>Before and after state changes for nutrition actions</li>
+              <li>A side-by-side look at the alternate visual themes</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <h3>Release boundary</h3>
+            <ul class="bullet-list">
+              <li>No source code, backend logic, prompts, or internal tooling</li>
+              <li>No cloud configuration, endpoints, or credentials</li>
+              <li>No analytics exports, tester data, or operations material</li>
+              <li>Static HTML, CSS, video, and screenshots only</li>
             </ul>
           </article>
         </div>
       </section>
 
-      <section class="section" id="core">
-        <h2>Core Demo Story</h2>
-        <p class="section-note">All core shots below are Aurora-only to keep the narrative visually consistent.</p>
+      <section class="section" id="walkthrough">
+        <div class="section-heading">
+          <p class="kicker">Walkthrough</p>
+          <h2>Recorded app walkthrough</h2>
+          <p>
+            This is the clearest way to review the product. It moves through the dashboard, profile, meal
+            planning, and back into updated dashboard state.
+          </p>
+        </div>
 
-        <article class="lane">
-          <header>
-            <h3>One-Day Flow</h3>
-            <p>Plan day context, handle meals, then execute fitness.</p>
-          </header>
-          <div class="shot-strip">
-            <figure>
-              <img src="aurora/01_daily_dash_home.png" alt="Daily Dash home" loading="lazy" />
-              <figcaption>1. Daily context and schedule</figcaption>
-            </figure>
-            <figure>
-              <img src="aurora/06_meal_planner.png" alt="Meal planner" loading="lazy" />
-              <figcaption>2. Planner overview</figcaption>
-            </figure>
-            <figure>
-              <img src="aurora/07_meal_grocery.png" alt="Meal grocery" loading="lazy" />
-              <figcaption>3. Grocery readiness</figcaption>
-            </figure>
-            <figure>
-              <img src="aurora/08_meal_prep.png" alt="Meal prep" loading="lazy" />
-              <figcaption>4. Prep instructions</figcaption>
-            </figure>
-            <figure>
-              <img src="aurora/09_fitness_hub.png" alt="Fitness Hub" loading="lazy" />
-              <figcaption>5. Fitness daily overview</figcaption>
-            </figure>
-            <figure>
-              <img src="aurora/10_fitness_focus_or_workout.png" alt="Workout focus" loading="lazy" />
-              <figcaption>6. Open workout or recovery block</figcaption>
-            </figure>
-          </div>
-        </article>
+        <div class="media-layout">
+          <article class="media-card">
+            <div class="media-header">
+              <h3>Aurora walkthrough video</h3>
+              <p>Daily Dash to profile and settings, into meal planning, then back to the dashboard with updated state.</p>
+            </div>
+            <video controls preload="metadata" playsinline poster="aurora/01_daily_dash_home.png">
+              <source src="aurora/aurora_story_video.mp4" type="video/mp4" />
+            </video>
+          </article>
 
-        <article class="lane">
-          <header>
-            <h3>Now + Next Intelligence</h3>
-            <p>Time-aware cards align immediate actions across nutrition and fitness.</p>
-          </header>
-          <div class="shot-strip shot-strip-2">
-            <figure>
-              <img src="aurora/12_dash_before_consume.png" alt="Daily Dash now and next" loading="lazy" />
-              <figcaption>Daily Dash now/next timeline</figcaption>
-            </figure>
-            <figure>
-              <img src="aurora/10_fitness_focus_or_workout.png" alt="Fitness now card" loading="lazy" />
-              <figcaption>Fitness focus and quick launch</figcaption>
-            </figure>
-          </div>
-        </article>
+          <aside class="summary-card">
+            <h3>In the video</h3>
+            <ul class="checklist">
+              <li>Starting state on the Daily Dash</li>
+              <li>Real menu and profile entry points</li>
+              <li>Meal planner, grocery, and prep views</li>
+              <li>Return to dashboard with nutrient percentage changes</li>
+              <li>Real flow, not just static screens</li>
+            </ul>
+          </aside>
+        </div>
+      </section>
 
-        <article class="lane">
-          <header>
-            <h3>State Transition Proof</h3>
-            <p>Actions update system state, including consume/adjust/undo feedback.</p>
-          </header>
-          <div class="shot-strip shot-strip-4">
+      <section class="section" id="screens">
+        <div class="section-heading">
+          <p class="kicker">Screens</p>
+          <h2>Key app screens</h2>
+          <p>Selected screens grouped by the product questions they answer.</p>
+        </div>
+
+        <div class="surface-grid">
+          <article class="surface-card">
+            <header>
+              <h3>Daily Dash</h3>
+              <p>Home context, action timing, and progress feedback on the main daily surface.</p>
+            </header>
+            <div class="frame-grid">
+              <figure>
+                <img src="aurora/01_daily_dash_home.png" alt="Daily Dash home" loading="lazy" />
+                <figcaption>Daily context and schedule</figcaption>
+              </figure>
+              <figure>
+                <img src="aurora/12_dash_before_consume.png" alt="Daily Dash before consume" loading="lazy" />
+                <figcaption>Pre-action state</figcaption>
+              </figure>
+              <figure>
+                <img src="aurora/13_dash_after_consume.png" alt="Daily Dash after consume" loading="lazy" />
+                <figcaption>Post-action feedback</figcaption>
+              </figure>
+            </div>
+          </article>
+
+          <article class="surface-card">
+            <header>
+              <h3>Meal Hub</h3>
+              <p>Planner, grocery, and prep modes for moving from recommendation to execution.</p>
+            </header>
+            <div class="frame-grid">
+              <figure>
+                <img src="aurora/06_meal_planner.png" alt="Meal planner view" loading="lazy" />
+                <figcaption>Planner view</figcaption>
+              </figure>
+              <figure>
+                <img src="aurora/07_meal_grocery.png" alt="Meal grocery view" loading="lazy" />
+                <figcaption>Grocery readiness</figcaption>
+              </figure>
+              <figure>
+                <img src="aurora/08_meal_prep.png" alt="Meal prep view" loading="lazy" />
+                <figcaption>Prep instructions</figcaption>
+              </figure>
+            </div>
+          </article>
+
+          <article class="surface-card">
+            <header>
+              <h3>Fitness and personalization</h3>
+              <p>Weekly training context, session launch, and the controls that shape the experience.</p>
+            </header>
+            <div class="frame-grid frame-grid--4">
+              <figure>
+                <img src="aurora/09_fitness_hub.png" alt="Fitness Hub overview" loading="lazy" />
+                <figcaption>Weekly and daily fitness context</figcaption>
+              </figure>
+              <figure>
+                <img src="aurora/10_fitness_focus_or_workout.png" alt="Workout focus view" loading="lazy" />
+                <figcaption>Workout or recovery launch</figcaption>
+              </figure>
+              <figure>
+                <img src="aurora/03_profile_top.png" alt="Profile top view" loading="lazy" />
+                <figcaption>Profile modules</figcaption>
+              </figure>
+              <figure>
+                <img src="aurora/05_settings.png" alt="Settings view" loading="lazy" />
+                <figcaption>Generation and appearance settings</figcaption>
+              </figure>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="transitions">
+        <div class="section-heading">
+          <p class="kicker">State Change Proof</p>
+          <h2>Before and after action states</h2>
+          <p>These frames show the dashboard updating after nutrition actions.</p>
+        </div>
+
+        <article class="surface-card">
+          <div class="frame-grid frame-grid--4">
             <figure>
               <img src="aurora/12_dash_before_consume.png" alt="Before consume" loading="lazy" />
               <figcaption>Before consume</figcaption>
@@ -147,87 +247,22 @@
         </article>
       </section>
 
-      <section class="section" id="depth">
-        <h2>Capability Depth</h2>
-        <div class="depth-grid">
-          <article class="lane">
-            <header>
-              <h3>Meal Hub Depth</h3>
-              <p>Planner, grocery, and prep support distinct decision modes.</p>
-            </header>
-            <div class="shot-strip shot-strip-3">
-              <figure>
-                <img src="aurora/06_meal_planner.png" alt="Meal planner details" loading="lazy" />
-                <figcaption>Planner mode</figcaption>
-              </figure>
-              <figure>
-                <img src="aurora/07_meal_grocery.png" alt="Grocery details" loading="lazy" />
-                <figcaption>Grocery mode</figcaption>
-              </figure>
-              <figure>
-                <img src="aurora/08_meal_prep.png" alt="Prep details" loading="lazy" />
-                <figcaption>Prep mode</figcaption>
-              </figure>
-            </div>
-          </article>
-
-          <article class="lane">
-            <header>
-              <h3>Fitness Hub Depth</h3>
-              <p>From weekly adherence context to session-level outcomes.</p>
-            </header>
-            <div class="shot-strip shot-strip-3">
-              <figure>
-                <img src="aurora/09_fitness_hub.png" alt="Fitness weekly context" loading="lazy" />
-                <figcaption>Weekly + daily context</figcaption>
-              </figure>
-              <figure>
-                <img src="aurora/10_fitness_focus_or_workout.png" alt="Fitness focus card" loading="lazy" />
-                <figcaption>Workout focus surface</figcaption>
-              </figure>
-              <figure>
-                <img src="aurora/17_dash_fitness_after_consume.png" alt="Fitness metric impact" loading="lazy" />
-                <figcaption>Logged impact in dashboard</figcaption>
-              </figure>
-            </div>
-          </article>
-
-          <article class="lane">
-            <header>
-              <h3>Profile + Settings Depth</h3>
-              <p>Personalization and generation controls in one path.</p>
-            </header>
-            <div class="shot-strip shot-strip-3">
-              <figure>
-                <img src="aurora/03_profile_top.png" alt="Profile top" loading="lazy" />
-                <figcaption>Profile modules</figcaption>
-              </figure>
-              <figure>
-                <img src="aurora/04_profile_scrolled.png" alt="Profile preferences" loading="lazy" />
-                <figcaption>Preference controls</figcaption>
-              </figure>
-              <figure>
-                <img src="aurora/05_settings.png" alt="Settings controls" loading="lazy" />
-                <figcaption>Generation + appearance settings</figcaption>
-              </figure>
-            </div>
-          </article>
+      <section class="section" id="variants">
+        <div class="section-heading">
+          <p class="kicker">Variants</p>
+          <h2>Theme comparison</h2>
+          <p>The walkthrough stays in Aurora. This section shows the same surfaces across the alternate themes.</p>
         </div>
-      </section>
 
-      <section class="section" id="themes">
-        <h2>Theme Lab</h2>
-        <p class="section-note">Core story is Aurora; this lab compares the same screens across additional themes.</p>
-
-        <div class="theme-compare" data-theme-compare>
-          <div class="theme-toggle" role="tablist" aria-label="Theme selector">
-            <button class="theme-btn is-active" type="button" data-theme-key="aurora">Aurora</button>
-            <button class="theme-btn" type="button" data-theme-key="matcha">Matcha</button>
-            <button class="theme-btn" type="button" data-theme-key="ocean">Ocean</button>
-            <button class="theme-btn" type="button" data-theme-key="tui">TUI</button>
+        <div class="compare-card" data-theme-compare>
+          <div class="theme-toggle" aria-label="Theme selector">
+            <button class="theme-btn is-active" type="button" data-theme-key="aurora" aria-pressed="true">Aurora</button>
+            <button class="theme-btn" type="button" data-theme-key="matcha" aria-pressed="false">Matcha</button>
+            <button class="theme-btn" type="button" data-theme-key="ocean" aria-pressed="false">Ocean</button>
+            <button class="theme-btn" type="button" data-theme-key="tui" aria-pressed="false">TUI</button>
           </div>
-          <p class="theme-meta" data-theme-meta>Default neon blend</p>
-          <div class="theme-preview-grid">
+          <p class="compare-note" data-theme-meta>Aurora theme</p>
+          <div class="frame-grid">
             <figure>
               <img data-theme-image="daily" src="aurora/01_daily_dash_home.png" alt="Aurora Daily Dash" loading="lazy" />
               <figcaption>Daily Dash</figcaption>
@@ -245,30 +280,35 @@
       </section>
 
       <section class="section" id="scope">
-        <h2>Public Release Scope</h2>
+        <div class="section-heading">
+          <p class="kicker">Scope</p>
+          <h2>Public scope</h2>
+          <p>This page is limited to assets that are safe to host publicly on GitHub Pages.</p>
+        </div>
+
         <div class="scope-grid">
           <article>
             <h3>Included</h3>
-            <ul>
-              <li>Product screenshots captured from seeded demo flows</li>
-              <li>Feature-level descriptions suitable for external audiences</li>
-              <li>No-code static assets for GitHub Pages hosting</li>
+            <ul class="bullet-list">
+              <li>Recorded walkthrough from the public-safe build</li>
+              <li>Release-safe screenshots and short product explanations</li>
+              <li>Static HTML and CSS suitable for GitHub Pages hosting</li>
             </ul>
           </article>
           <article>
-            <h3>Intentionally Excluded</h3>
-            <ul>
-              <li>Source code, backend implementation, and prompts</li>
-              <li>Cloud credentials, service configs, and internal endpoints</li>
-              <li>Private analytics, tester records, and operational runbooks</li>
+            <h3>Excluded</h3>
+            <ul class="bullet-list">
+              <li>Source code, backend logic, and prompt infrastructure</li>
+              <li>Service configuration, credentials, and private endpoints</li>
+              <li>Internal analytics, tester history, and operations material</li>
             </ul>
           </article>
         </div>
       </section>
     </main>
 
-    <footer>
-      <p>Public demo package updated: February 21, 2026</p>
+    <footer class="site-footer">
+      <p>Public demo updated March 17, 2026.</p>
       <p><a href="#top">Back to top</a></p>
     </footer>
 
@@ -280,28 +320,28 @@
         const shots = {
           aurora: {
             name: "Aurora",
-            note: "Default neon blend",
+            note: "Aurora theme",
             daily: "aurora/01_daily_dash_home.png",
             meal: "aurora/06_meal_planner.png",
             fitness: "aurora/09_fitness_hub.png"
           },
           matcha: {
             name: "Matcha",
-            note: "Soft botanical system",
+            note: "Matcha theme",
             daily: "themes/matcha_daily_dash.png",
             meal: "themes/matcha_meal_hub.png",
             fitness: "themes/matcha_fitness_hub.png"
           },
           ocean: {
             name: "Ocean",
-            note: "Cyan and navy contrast",
+            note: "Ocean theme",
             daily: "themes/ocean_daily_dash.png",
             meal: "themes/ocean_meal_hub.png",
             fitness: "themes/ocean_fitness_hub.png"
           },
           tui: {
             name: "TUI",
-            note: "Terminal-inspired palette",
+            note: "TUI theme",
             daily: "themes/tui_daily_dash.png",
             meal: "themes/tui_meal_hub.png",
             fitness: "themes/tui_fitness_hub.png"
@@ -328,6 +368,7 @@
 
           buttons.forEach((button) => {
             button.classList.toggle("is-active", button.dataset.themeKey === key);
+            button.setAttribute("aria-pressed", String(button.dataset.themeKey === key));
           });
         }
 
