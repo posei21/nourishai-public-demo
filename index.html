@@ -3,10 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>NourishAI Public Demo</title>
+    <title>NourishAI Public Preview</title>
     <meta
       name="description"
-      content="Recorded public product walkthrough for NourishAI, including meal planning, daily guidance, fitness tracking, and release-safe screenshots from the iOS build."
+      content="Static public preview for NourishAI, showing meal planning, daily guidance, fitness tracking, and state changes from the iOS build."
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -21,30 +21,30 @@
       <div class="shell">
         <nav class="top-nav" aria-label="Section navigation">
           <a href="#overview">Overview</a>
-          <a href="#walkthrough">Walkthrough</a>
           <a href="#screens">Screens</a>
+          <a href="#transitions">State Changes</a>
           <a href="#variants">Variants</a>
           <a href="#scope">Scope</a>
         </nav>
 
         <section class="hero">
           <div class="hero-copy">
-            <p class="eyebrow">NourishAI / Public Demo</p>
-            <h1>Recorded walkthrough and product screens for the iOS meal-planning app.</h1>
+            <p class="eyebrow">NourishAI / Public Preview</p>
+            <h1>Static product preview for the iOS meal-planning app.</h1>
             <p class="lead">
-              This page shows NourishAI through a recorded Aurora walkthrough, selected iOS screens, and a
-              quick comparison of the alternate visual themes used in the app.
+              This page is intentionally image-led: selected iOS screens, before-and-after state changes,
+              and a quick comparison of the alternate visual themes used in the app.
             </p>
             <div class="hero-actions">
-              <a class="button button-primary" href="#walkthrough">Watch walkthrough</a>
-              <a class="button button-secondary" href="#screens">Review screens</a>
+              <a class="button button-primary" href="#screens">Review screens</a>
+              <a class="button button-secondary" href="#transitions">See state changes</a>
             </div>
           </div>
 
           <aside class="hero-panel" aria-label="Demo facts">
             <div class="hero-stat">
               <span class="hero-label">Format</span>
-              <strong>Recorded iOS walkthrough</strong>
+              <strong>Static iOS preview</strong>
             </div>
             <div class="hero-stat">
               <span class="hero-label">Coverage</span>
@@ -88,9 +88,9 @@
           <article class="card">
             <h3>What is included</h3>
             <ul class="bullet-list">
-              <li>Recorded Aurora walkthrough using a seeded public-safe account</li>
               <li>Curated screenshots from the same product surface area</li>
               <li>Before and after state changes for nutrition actions</li>
+              <li>Primary Aurora screens from the iOS build</li>
               <li>A side-by-side look at the alternate visual themes</li>
             </ul>
           </article>
@@ -101,43 +101,9 @@
               <li>No source code, backend logic, prompts, or internal tooling</li>
               <li>No cloud configuration, endpoints, or credentials</li>
               <li>No analytics exports, tester data, or operations material</li>
-              <li>Static HTML, CSS, video, and screenshots only</li>
+              <li>Static HTML, CSS, and screenshots only</li>
             </ul>
           </article>
-        </div>
-      </section>
-
-      <section class="section" id="walkthrough">
-        <div class="section-heading">
-          <p class="kicker">Walkthrough</p>
-          <h2>Recorded app walkthrough</h2>
-          <p>
-            This is the clearest way to review the product. It moves through the dashboard, profile, meal
-            planning, and back into updated dashboard state.
-          </p>
-        </div>
-
-        <div class="media-layout">
-          <article class="media-card">
-            <div class="media-header">
-              <h3>Aurora walkthrough video</h3>
-              <p>Daily Dash to profile and settings, into meal planning, then back to the dashboard with updated state.</p>
-            </div>
-            <video controls preload="metadata" playsinline poster="aurora/01_daily_dash_home.png">
-              <source src="aurora/aurora_story_video.mp4" type="video/mp4" />
-            </video>
-          </article>
-
-          <aside class="summary-card">
-            <h3>In the video</h3>
-            <ul class="checklist">
-              <li>Starting state on the Daily Dash</li>
-              <li>Real menu and profile entry points</li>
-              <li>Meal planner, grocery, and prep views</li>
-              <li>Return to dashboard with nutrient percentage changes</li>
-              <li>Real flow, not just static screens</li>
-            </ul>
-          </aside>
         </div>
       </section>
 
@@ -251,7 +217,7 @@
         <div class="section-heading">
           <p class="kicker">Variants</p>
           <h2>Theme comparison</h2>
-          <p>The walkthrough stays in Aurora. This section shows the same surfaces across the alternate themes.</p>
+          <p>Aurora is the primary preview theme. This section shows the same surfaces across the alternate themes.</p>
         </div>
 
         <div class="compare-card" data-theme-compare>
@@ -290,8 +256,8 @@
           <article>
             <h3>Included</h3>
             <ul class="bullet-list">
-              <li>Recorded walkthrough from the public-safe build</li>
               <li>Release-safe screenshots and short product explanations</li>
+              <li>State-change proof from the Daily Dash flow</li>
               <li>Static HTML and CSS suitable for GitHub Pages hosting</li>
             </ul>
           </article>
@@ -308,7 +274,7 @@
     </main>
 
     <footer class="site-footer">
-      <p>Public demo updated March 17, 2026.</p>
+      <p>Public preview updated March 17, 2026.</p>
       <p><a href="#top">Back to top</a></p>
     </footer>
 
